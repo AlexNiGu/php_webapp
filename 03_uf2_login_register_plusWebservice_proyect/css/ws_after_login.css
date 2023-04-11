@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin-top: 9%;
+    font-size: large;
+    background-color: rgb(238, 238, 238);
+    
+}
+h1 {
+    color: #ec4141;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    color: rgb(49, 49, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form {
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2.5em;
+}
+button {
+    margin-top: 5%;
+    font-size: small;
+}
+
+input {
+    padding: 5%;
+}
+/* .buton {
+	border-radius: 20px;
+	border: 1px solid #2f1611;
+	background-color: #2a1511;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	width: 2%;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+}
+.buton:hover {
+	border: 1px solid #b84f3b;
+	background-color: #b84f3b;
+} */
+

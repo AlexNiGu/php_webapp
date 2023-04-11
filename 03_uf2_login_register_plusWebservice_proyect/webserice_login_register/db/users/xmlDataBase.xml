@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user>
+        <username>marc</username>
+        <email>marc@gmail.com</email>
+        <password>jota</password>
+    </user>
+    <user>
+        <username>Lola</username>
+        <email>Lola@gmail.com</email>
+        <password>1234</password>
+    </user>
+    <user>
+        <username>Armelia</username>
+        <email>Armelia@gmail.com</email>
+        <password>hola</password>
+    </user>
+</users>

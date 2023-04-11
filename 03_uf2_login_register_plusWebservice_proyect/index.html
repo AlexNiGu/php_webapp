@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" main="screen" href="css/style.css">
+	<title>Login</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="Sign-account" id="Sign-account">
+			<form action="..\03_uf2_login_register_plusWebservice_proyect\webserice_login_register\ws_login_register.php" id="" method="GET">
+				<h1 class="Sign-in">Sign in</h1>
+				<input name="username" type="text" placeholder="username">
+				<input name="password" type="text" placeholder="password">
+				<h4 class="Forgot-password" id="Forgot-password">Forgot your password?</h4>
+				<button onclick="loadDoc()" type="submit">Login</button>
+
+				<div class="Not-account" id="Not-account">
+					<h5>Don't have and account, come on an Register</h5>
+				</div>
+			</form>
+		</div>
+		<div class="register-account" id="register-account">
+			<form action="..\03_uf2_login_register_plusWebservice_proyect\webserice_login_register\ws_login_register.php" id="" method="GET">
+				<h1 class="Create-account">Create an account</h1>
+				<input name="username" type="text" placeholder="username">
+				<input name="email" type="text" placeholder="email">
+				<input name="password" type="text" placeholder="password">
+				<input name="password_Confirm" type="text" placeholder="repeat the password">
+				<button type="submit">Register</button>
+				
+				<div class="yes-account" id="yes-account">
+					<h5>Oh, so you have an account</h5>
+					<!-- <input name="password" type="text" placeholder="password">
+					<input name="password_Confirm" type="text" placeholder="repeat the password"> -->
+				</div>
+			</form>
+		</div>
+
+		<div class="password-recover" id="password-recover">
+			<form action="..\03_uf2_login_register_plusWebservice_proyect\webserice_login_register\ws_password_recover.php" if="" method="GET">
+				<h1 class="Create-other-password">Put your new password</h1>
+				<input name="username" type="text" placeholder="username">
+				<input name="newPassword" type="text" placeholder="password">
+				<input name="password_Confirm" type="text" placeholder="repeat the password">
+				<button type="submit">recover</button>
+
+				<div class="you-remeber-password" id="you-remeber-password">
+					<h5>If you remember your account, come back</h5>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/getParameters.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

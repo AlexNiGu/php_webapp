@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 95vh;
+	margin: -20px 0 50px;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+h4 {
+	font-weight: lighter;
+}
+h5 {
+	font-weight: lighter;
+	color: #fff
+}
+
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	width: 35%;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	transition: 0.3s;
+}
+button:hover {
+	width: 65%;
+	border: 1px solid #b4351e;
+	background-color: #b4351e;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 65px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 650px;
+	max-width: 100%;
+	min-height: 500px;
+}
+
+.Sign-in, .Create-account{
+	margin-top: 12%;
+	padding-bottom: 3%;
+}
+
+.Not-account, .yes-account , .you-remeber-password{
+	background-color: #FF4B2B;
+	margin-top: 5%;
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.Not-account {
+	margin-top: 6%;
+
+}
+
+.Not-account:hover, .yes-account:hover, .you-remeber-password:hover {
+	background-color: #7a4339;
+}
+.Sign-account, .register-account{
+	transition: 1s;
+}
+.password-recover {
+	margin-top: 15%;
+}
+.Create-other-password {
+	padding-bottom: 4%;
+}
+.Forgot-password{
+	cursor: pointer;
+}
+
+
